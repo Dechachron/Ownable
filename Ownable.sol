@@ -12,7 +12,7 @@ import "github.com/Dechachron/Abstract/blob/main/abstract.sol";
         emit OwnershipTransferred(address(0), msgSender);
     }
 
-    function owner() public view returns (address payable) {
+    function owner() public view returns (address) {
         return _owner;
     }
 
