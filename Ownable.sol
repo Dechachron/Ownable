@@ -1,7 +1,7 @@
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.7;
+// SPDX-License-Identifier: Unlicensed
+pragma solidity 0.6.12;
 
-import "github.com/Dechachron/Abstract/blob/main/abstract.sol";
+import "github.com/Dechachron/Context/blob/main/Contextt.sol";
 
 contract Ownable is Context {
     address private _owner;
