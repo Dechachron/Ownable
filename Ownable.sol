@@ -1,7 +1,5 @@
 // SPDX-License-Identifier: Unlicensed
-pragma solidity 0.6.12;
-
-import "github.com/Dechachron/Context/blob/main/Contextt.sol";
+pragma solidity 0.8.10;
 
 contract Ownable is Context {
     address private _owner;
